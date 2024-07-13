@@ -4,6 +4,7 @@ var modal2 = document.getElementById("Hidden2");
 
 // Get the profile icon that opens the modal
 var profileIcon = document.getElementById("profile-icon");
+var profileIcon2 = document.getElementById("profile-icon2");
 
 // Get the elements that switch between modals
 var triggerSignUp = document.getElementById("Signingup");
@@ -17,6 +18,11 @@ profileIcon.onclick = function() {
     modal.style.display = "block";
     modal2.style.display = "none";
 }
+
+// profileIcon2.onclick = function() {
+//     modal.style.display = "block";
+//     modal2.style.display = "none";
+// }
 
 // When the user clicks on "Sign Up", open the sign-up modal
 triggerSignUp.onclick = function() {

@@ -12,12 +12,12 @@ body {
     top: 0;
     width: 100%; /* Make sure it spans the full width */
     z-index: 1000; /* Ensure it stays above other content */
-    height: auto;
-    opacity: 0.8;
+    height: 20%;
+    opacity: 1;
     block-size: auto;
 }
 
-.container {
+.navcontainer {
     width: 80%;
     margin: auto;
     overflow: hidden;
@@ -133,3 +133,4 @@ label{
     text-decoration: none;
     cursor: pointer;
 }
+

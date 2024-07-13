@@ -1,0 +1,148 @@
+.Container {
+    display: flex;
+    margin-top: 1rem;
+}
+
+#sidebar{
+    margin-top: 1rem;
+    background-color: gray;
+    height: 100vh;
+    width: 12%;
+    position: fixed;
+}
+
+#sidebar > p > img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+#sidebar > p {
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: left;
+    padding-left: 14px;
+}
+
+
+#sidebar > .Title{
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+
+#options {
+    width: 30%;
+    background-color: yellow;
+}
+
+#optioncontainer {
+    width: 100%;
+    margin: auto;
+    background-color: aqua;
+
+}
+
+#optioncontainer > p{
+    padding-left: 37%;
+    font-size: 18px;
+}
+
+#optioncontainer > .slidecontainer > p {
+    padding-left: 15%;
+    font-size: 14px;
+}
+
+.slider {
+    /* -webkit-appearance: none; */
+    appearance: none;
+    width: 50%;
+    height: 10px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .2s;
+    margin-left: 37%;
+}
+  
+.slider:hover {
+    opacity: 1;
+}
+  
+.slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 0%;
+    background: white;
+    cursor: pointer;
+}
+  
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: black;
+    cursor: pointer;
+}
+
+hr{
+    color: black;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+/* noUiSlider styles */
+#price-slider {
+    appearance: none;
+    margin: 0 auto;
+    width: 49.5%;
+    height: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 43.5%;
+}
+
+.noUi-handle {
+    background-color: #d3d3d3;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+}
+
+.noUi-connect {
+    background: #d3d3d3;
+    color: #000;
+}
+
+.noUi-horizontal {
+    height: 10px;
+}
+
+.noUi-target, .noUi-ltr .noUi-horizontal {
+    border-radius: 5px;
+}
+
+.noUi-tooltip {
+    background: #000;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.price > p{
+    margin-left: 37%;
+    font-size: 14px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
