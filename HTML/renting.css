@@ -11,17 +11,22 @@
     position: fixed;
 }
 
-#sidebar > p > img{
-    height: 1.5rem;
-    width: 1.5rem;
+
+#sidebar > .sidebarconfige > img{
+    height: 2rem;
+    width: 2rem;
+    float: left;
+    padding-right: 20px;
 }
 
-#sidebar > p {
+#sidebar > .sidebarconfige > p {
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 5px;
     text-align: left;
     padding-left: 14px;
+    margin-bottom: 5px;
+    
 }
 
 
@@ -30,6 +35,14 @@
     margin-bottom: 2px;
 }
 
+/* Sidebar Configuration */
+.sidebarconfige {
+    border-width: 5px;
+    border-style: outset;
+    border-color: #FFFFFF;
+}
+
+/* Sliders */
 #options {
     width: 30%;
     background-color: yellow;
@@ -73,7 +86,7 @@
     appearance: none;
     width: 20px;
     height: 20px;
-    border-radius: 0%;
+    border-radius: 50%;
     background: white;
     cursor: pointer;
 }
@@ -101,11 +114,11 @@ hr{
 #price-slider {
     appearance: none;
     margin: 0 auto;
-    width: 49.5%;
+    width: 50%;
     height: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 43.5%;
+    margin-left: 36.4%;
 }
 
 .noUi-handle {

@@ -43,6 +43,26 @@
         .noUi-connect {
             background: #d3d3d3 ;
         }
+
+        .noUi-handle:after, .noUi-handle::before {
+            content: none;
+            display: block;
+            position: absolute;
+            height: 14px;
+            width: 1px;
+            background: #E8E7E6;
+            left: 14px;
+            top: 6px;
+            opacity: 1;
+        }
+
+        .noUi-horizontal .noUi-handle {
+            width: 23px;
+            height: 23px;
+            
+            border-radius: 50%;
+        }
+
         #price-slider {
             display: inline-block;
         }
@@ -81,13 +101,25 @@
     <div class="content">
         <div id="sidebar">
             <p class="Title" style="padding-top: 40px;">Sort Based On</p>
-            <p><img src="/HTML/Icons/console.png" alt="console"> Games</p>
-            <p><img src="/HTML/Icons/circuit.png" alt="circuit"> Specs</p>
-            <p><img src="/HTML/Icons/feature.png" alt="feature"> Applications</p>
+            <div class="sidebarconfige">
+                <img src="/HTML/Icons/console.png" alt="console"><p> Games</p>
+            </div>
+            <div class="sidebarconfige">
+                <img src="/HTML/Icons/circuit.png" alt="circuit"><p> Specs</p>
+            </div>
+            <div class="sidebarconfige">
+                <img src="/HTML/Icons/feature.png" alt="feature"><p> Applications</p>
+            </div>
             <p class="Title" style="padding-top: 30px;">Account</p>
-            <p><img src="/HTML//Icons/bill.png" alt="Bill"> Biling</p>
-            <p><img src="/HTML/Icons/salary.png" alt="Earning"> Earning</p>
-            <p><img src="/HTML/Icons/profile-user.png" alt="profile" class="profile-icon2"> Account</p>
+            <div class="sidebarconfige">
+                <img src="/HTML//Icons/bill.png" alt="Bill"><p> Biling</p>
+            </div>
+            <div class="sidebarconfige">
+                <img src="/HTML/Icons/salary.png" alt="Earning"><p> Earning</p>
+            </div>
+            <div class="sidebarconfige">
+                <img src="/HTML/Icons/profile-user.png" alt="profile" class="profile-icon2"><p> Account</p>
+            </div>
         </div>
         <div class="Container">
             <div id="options">
