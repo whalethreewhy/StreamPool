@@ -1,0 +1,38 @@
+{
+    "hosts":
+    [
+        {
+            "id": "1",
+            "name": "i5 6600K | GTX 1070",
+            "rate": "0.30",
+            "perf": "Low",
+            "latency": "15",
+            "host": "wail3y",
+            "datejoined": "20/07/2024",
+            "rating": "4.1",
+            "apps": ["Steam","Blender","Overwatch 2","Counter-Strike 2","Minecraft","Elden Ring","Baldur's Gate 3","God Of War","Marvel's Spider-Man: Miles Morales","Ghost of Tsushima","Adobe Creative Cloud","AutoCAD"]
+        },
+        {
+            "id": "2",
+            "name": "R7 5800H | RTX 3070",
+            "rate": "0.40",
+            "perf": "High",
+            "latency": "10",
+            "host": "eddieddc",
+            "datejoined": "20/07/2024",
+            "rating": "4.8",
+            "apps": ["Steam","Blender","Overwatch 2","Counter-Strike 2","Minecraft","Adobe Creative Cloud","AutoCAD"]
+        },
+        {
+            "id": "3",
+            "name": "i9 14900K | RTX 4090",
+            "rate": "0.63",
+            "perf": "Extreme",
+            "latency": "11",
+            "host": "melona",
+            "datejoined": "20/07/2024",
+            "rating": "4.9",
+            "apps": ["Steam","Blender"]
+        }
+    ]
+}

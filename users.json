@@ -1,0 +1,22 @@
+{
+    "wail3y": 
+    {
+        "id": "1",
+        "password": "",
+        "host": true
+    },
+
+    "eddieddc": 
+    {
+        "id": "2",
+        "password": "",
+        "host": true
+    },
+
+    "melona":
+    {
+        "id": "3",
+        "password": "",
+        "host": false
+    }
+}
