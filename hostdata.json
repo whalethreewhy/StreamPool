@@ -10,7 +10,7 @@
             "host": "wail3y",
             "datejoined": "20/07/2024",
             "rating": "4.1",
-            "apps": ["Steam","Blender","Overwatch 2","Counter-Strike 2","Minecraft","Elden Ring","Baldur's Gate 3","God Of War","Marvel's Spider-Man: Miles Morales","Ghost of Tsushima","Adobe Creative Cloud","AutoCAD"]
+            "apps": ["Steam","Overwatch 2","Counter-Strike 2","Minecraft","Elden Ring","Baldur's Gate 3","God Of War","Marvel's Spider-Man: Miles Morales","Ghost of Tsushima","Adobe Creative Cloud","AutoCAD"]
         },
         {
             "id": "2",
@@ -21,7 +21,7 @@
             "host": "eddieddc",
             "datejoined": "20/07/2024",
             "rating": "4.8",
-            "apps": ["Steam","Blender","Overwatch 2","Counter-Strike 2","Minecraft","Adobe Creative Cloud","AutoCAD"]
+            "apps": ["Steam","Blender","Baldur's Gate 3","Elden Ring","Adobe Creative Cloud","Spotify","Firefox","Visual Studio Code","God Of War","Counter-Strike 2"]
         },
         {
             "id": "3",
@@ -33,6 +33,160 @@
             "datejoined": "20/07/2024",
             "rating": "4.9",
             "apps": ["Steam","Blender"]
+        },
+        {
+            "id": "4",
+            "name": "i7 12700K | RTX 3080",
+            "rate": "0.50",
+            "perf": "Ultra",
+            "latency": "12",
+            "host": "gamegeek",
+            "datejoined": "21/07/2024",
+            "rating": "4.7",
+            "apps": ["Steam","Unity","Fortnite","Call of Duty: Warzone","Cyberpunk 2077","SolidWorks","MATLAB","Adobe Premiere Pro"]
+        },
+        {
+            "id": "5",
+            "name": "R9 5900X | RTX 3080 Ti",
+            "rate": "0.55",
+            "perf": "Ultra",
+            "latency": "9",
+            "host": "renderpro",
+            "datejoined": "22/07/2024",
+            "rating": "4.6",
+            "apps": ["Steam","Blender","DaVinci Resolve","Assassin's Creed Valhalla","Civilization VI","AutoCAD","Revit","3ds Max"]
+        },
+        {
+            "id": "6",
+            "name": "i7 11700K | RTX 3060",
+            "rate": "0.35",
+            "perf": "High",
+            "latency": "13",
+            "host": "devguru",
+            "datejoined": "23/07/2024",
+            "rating": "4.3",
+            "apps": ["Steam","Photoshop","Rocket League","Valorant","SolidWorks","MATLAB","AutoCAD","Eclipse"]
+        },
+        {
+            "id": "7",
+            "name": "R7 3700X | RX 5700 XT",
+            "rate": "0.33",
+            "perf": "Medium",
+            "latency": "14",
+            "host": "artiste",
+            "datejoined": "24/07/2024",
+            "rating": "4.5",
+            "apps": ["Steam","Blender","GIMP","FIFA 23","Battlefield 2042","AutoCAD","SketchUp","Adobe Illustrator"]
+        },
+        {
+            "id": "8",
+            "name": "i5 10400F | GTX 1660",
+            "rate": "0.28",
+            "perf": "Low",
+            "latency": "16",
+            "host": "studyninja",
+            "datejoined": "25/07/2024",
+            "rating": "4.2",
+            "apps": ["Steam","Photoshop","Minecraft","League of Legends","MATLAB","SPSS","Microsoft Office","Zoom"]
+        },
+        {
+            "id": "9",
+            "name": "R5 3600 | RTX 2060",
+            "rate": "0.30",
+            "perf": "Medium",
+            "latency": "12",
+            "host": "gamerjohn",
+            "datejoined": "26/07/2024",
+            "rating": "4.4",
+            "apps": ["Steam","Blender","Fortnite","DOTA 2","Cyberpunk 2077","AutoCAD","SketchUp","Unity"]
+        },
+        {
+            "id": "10",
+            "name": "i9 11900K | RTX 3080",
+            "rate": "0.52",
+            "perf": "Ultra",
+            "latency": "8",
+            "host": "maxedout",
+            "datejoined": "27/07/2024",
+            "rating": "4.8",
+            "apps": ["Steam","Photoshop","Red Dead Redemption 2","Call of Duty: Modern Warfare","SolidWorks","Revit","3ds Max","Adobe Premiere Pro"]
+        },
+        {
+            "id": "11",
+            "name": "R7 5800X | RTX 3070 Ti",
+            "rate": "0.45",
+            "perf": "High",
+            "latency": "10",
+            "host": "techsavvy",
+            "datejoined": "28/07/2024",
+            "rating": "4.7",
+            "apps": ["Steam","Blender","Overwatch 2","Counter-Strike 2","Minecraft","MATLAB","SolidWorks","Adobe Creative Cloud"]
+        },
+        {
+            "id": "12",
+            "name": "i5 12600K | RTX 3050",
+            "rate": "0.38",
+            "perf": "Medium",
+            "latency": "12",
+            "host": "codemaster",
+            "datejoined": "28/07/2024",
+            "rating": "4.4",
+            "apps": ["Steam","Photoshop","Minecraft","League of Legends","SPSS","Microsoft Office","Eclipse","Visual Studio"]
+        },
+        {
+            "id": "13",
+            "name": "R5 5600X | RTX 3060 Ti",
+            "rate": "0.40",
+            "perf": "High",
+            "latency": "11",
+            "host": "gamefreak",
+            "datejoined": "29/07/2024",
+            "rating": "4.5",
+            "apps": ["Steam","Blender","Fortnite","DOTA 2","Cyberpunk 2077","AutoCAD","Revit","3ds Max"]
+        },
+        {
+            "id": "14",
+            "name": "i7 10700K | RTX 2060 Super",
+            "rate": "0.37",
+            "perf": "Medium",
+            "latency": "14",
+            "host": "designerpro",
+            "datejoined": "30/07/2024",
+            "rating": "4.3",
+            "apps": ["Steam","Photoshop","GIMP","FIFA 23","Battlefield 2042","SketchUp","Adobe Illustrator","SolidWorks"]
+        },
+        {
+            "id": "15",
+            "name": "R9 5950X | RTX 3090",
+            "rate": "0.60",
+            "perf": "Extreme",
+            "latency": "7",
+            "host": "renderking",
+            "datejoined": "31/07/2024",
+            "rating": "4.9",
+            "apps": ["Steam","Blender","DaVinci Resolve","Assassin's Creed Valhalla","Civilization VI","3ds Max","MATLAB","AutoCAD"]
+        },
+        {
+            "id": "16",
+            "name": "i9 12900K | RTX 3080 Ti",
+            "rate": "0.55",
+            "perf": "Ultra",
+            "latency": "9",
+            "host": "poweruser",
+            "datejoined": "01/08/2024",
+            "rating": "4.8",
+            "apps": ["Steam","Photoshop","Red Dead Redemption 2","Call of Duty: Modern Warfare","Adobe Premiere Pro","SolidWorks","Revit","3ds Max"]
+        },
+        {
+            "id": "17",
+            "name": "R7 5700G | RX 6800 XT",
+            "rate": "0.50",
+            "perf": "High",
+            "latency": "10",
+            "host": "gamersdream",
+            "datejoined": "02/08/2024",
+            "rating": "4.7",
+            "apps": ["Steam","Blender","Overwatch 2","Counter-Strike 2","Minecraft","AutoCAD","SolidWorks","MATLAB"]
         }
     ]
 }
